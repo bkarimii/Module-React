@@ -2,6 +2,7 @@ import PlayerScore from "@/components/PlayerScore/PlayerScore.jsx";
 import "./HighScoreTable.scss";
 // https://react.dev/learn/rendering-lists
 
+// this is a start for level 2 chanlenege
 const HighScoreTable = ({ country, scores = [] }) => (
   <table className="scores">
     <caption>{country}</caption>
