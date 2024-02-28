@@ -1,7 +1,7 @@
 import HighScoreTable from "@/components/HighScoreTable/HighScoreTable.jsx";
 import scores from "@/data/scores.json";
 import "./App.scss";
-import Sorter from "../SorterFunction/SorterFunction";
+import Sorter from "../SorterCountryByName/SortCountryByName";
 
 scores.sort(Sorter);
 const App = () => (
