@@ -1,6 +1,6 @@
 import React from "react";
 
-function SortScoreAscending() {
+function SortScores(scoreOne, scoreTwo) {
   if (Number(scoreOne.s) > Number(scoreTwo.s)) {
     return 1;
   }
@@ -12,4 +12,4 @@ function SortScoreAscending() {
   }
 }
 
-export default SortScoreAscending;
+export default SortScores;

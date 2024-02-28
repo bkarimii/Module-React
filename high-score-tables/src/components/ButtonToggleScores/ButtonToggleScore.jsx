@@ -1,7 +1,7 @@
 import React from "react";
 
-function ButtonToggleScores() {
-  return <button>Desc/Asce</button>;
+function ButtonToggleScores({ onClick }) {
+  return <button onClick={onClick}>Desc/Asce</button>;
 }
 
 export default ButtonToggleScores;
