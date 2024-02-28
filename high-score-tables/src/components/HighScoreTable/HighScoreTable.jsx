@@ -1,6 +1,6 @@
 import PlayerScore from "@/components/PlayerScore/PlayerScore.jsx";
 import "./HighScoreTable.scss";
-import SortScoresDecsending from "../SortScores/SortScores";
+import SortScoresDecsending from "../SortScoresDesc/SortScoresDescending";
 // https://react.dev/learn/rendering-lists
 
 // this is a start for level 2 chanlenge
