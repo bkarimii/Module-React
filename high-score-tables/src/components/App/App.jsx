@@ -26,7 +26,7 @@ const App = () => {
       <header className="app__header">
         <h1 className="app__heading">High Scores</h1>
         <button onClick={toggleSorting}>
-          Sort {isAscending ? "Ascending" : "Descending"}
+          Sort {isAscending ? "Descending" : "Ascending"}
         </button>
       </header>
       {sortedScores.map(({ name, scores }, index) => (
